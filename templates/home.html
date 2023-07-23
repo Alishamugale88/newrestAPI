@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Welcome</title>
+    </head>
+    <body>
+      <form method="post" action=""> 
+        {% csrf_token %}
+        {{form }}   <!--generate forms.py file-->
+        <input type="submit" value="Submit">
+      </form>
+
+    </body>
+</html>
